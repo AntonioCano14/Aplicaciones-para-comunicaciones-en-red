@@ -211,7 +211,7 @@ if( nivel=="avanzado"):
 
         k=TCPClientSocket.recv(2)
         print(k)
-        if (k=='X'):
+        if (k==b'X'):
             M[p]='X'
         else:
             M[p]='*'
